@@ -1,12 +1,8 @@
-# A checklist for all projects that are going live
+# Application Deployment Preflight Checks
 
-This checklist is used whenever a project is going live at https://spatie.be
+Use this list to track completion of important tasks prior to launching a new project. 
 
-## 1. Browserstack tests
-- [ ] Desktop: test on latest versions of Chrome, IE/Edge, Firefox, Safari
-- [ ] Mobile: test on latest versions of Mobile Safari, Android
-
-## 2. Front end checklist
+## 1. Front-end
 
 ### Assets
 - [ ] Search sources for `http://`. Replace by `https://`
@@ -95,6 +91,3 @@ _Repeat this section for all languages_
 
 ### Github
 - [ ] Remove `develop` branch or other stale branches 
-
-## About Spatie
-Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
