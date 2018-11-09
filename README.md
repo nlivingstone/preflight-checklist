@@ -14,7 +14,7 @@ Use this list to track completion of important tasks prior to launching a new pr
 ### Meta
 - [ ] Check page titles / descriptions.
 - [ ] Facebook / Twitter Card tags are present.
-- [ ] Favicons are present. *Pin the tab in Safari & Chrome to check pinned icon*.
+- [ ] Favicons are present. *Pin the tab in Chrome to check pinned icon*.
 - [ ] Is the `viewport` tag present and configured
 
 ### Scripts
