@@ -18,7 +18,7 @@ Use this list to track completion of important tasks prior to launching a new pr
 - [ ] Does Favicon load? Pin the tab in Safari to check pinned icon.
 
 ### Scripts
-- [ ] Is `yarn.lock` present?
+- [ ] Is `package-lock.json` present?
 - [ ] Check JS lint errors. Remove all `console.log` lines in scripts
 - [ ] Check for console errors
 
