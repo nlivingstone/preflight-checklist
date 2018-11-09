@@ -16,12 +16,10 @@ Use this list to track completion of important tasks prior to launching a new pr
 - [ ] Check JS lint errors. Remove all `console.log` lines in scripts
 - [ ] Check for console errors
 
-### Page Performance
+### Performance Audit
 - [ ] Evaluate total size of at least homepage
 - [ ] Open Inspector network/timeline tab to identify heavy assets 
 - [ ] Check if heavy assets are cached 
-
-### Audits
 - [ ] Use the Chrome DevTools and perform a mobile audit (with throttling) to fix common problems.
 - [ ] Repeat with a desktop audit.
 
