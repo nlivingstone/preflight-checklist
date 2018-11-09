@@ -16,8 +16,8 @@ Use this list to track completion of important tasks prior to launching a new pr
 - [ ] Check JS lint errors. Remove all `console.log` lines in scripts
 - [ ] Check for console errors
 
-### Page weight
-- [ ] Evaluate total weight of at least homepage
+### Page Performance
+- [ ] Evaluate total size of at least homepage
 - [ ] Open Inspector network/timeline tab to identify heavy assets 
 - [ ] Check if heavy assets are cached 
 
@@ -32,9 +32,10 @@ Use this list to track completion of important tasks prior to launching a new pr
 - [ ] Check all pages for n+1 problems
 
 ### Meta
-- [ ] Check page titles / descriptions
-- [ ] Test Facebook sharing. Provide og-tags if needed
-- [ ] Does Favicon load? Pin the tab in Safari to check pinned icon
+- [ ] Check page titles / descriptions.
+- [ ] Are Twitter cards configured.
+- [ ] Are Facebook previews configured.
+- [ ] Does Favicon load? Pin the tab in Safari to check pinned icon.
 
 _Repeat this section for all languages_
 
