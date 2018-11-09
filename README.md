@@ -13,9 +13,9 @@ Use this list to track completion of important tasks prior to launching a new pr
 
 ### Meta
 - [ ] Check page titles / descriptions.
-- [ ] Are Twitter cards configured.
-- [ ] Are Facebook previews configured.
-- [ ] Does Favicon load? Pin the tab in Safari to check pinned icon.
+- [ ] Facebook / Twitter Card tags are present.
+- [ ] Favicons are present. *Pin the tab in Safari & Chrome to check pinned icon*.
+- [ ] Is the `viewport` tag present and configured
 
 ### Scripts
 - [ ] Is `package-lock.json` present?
