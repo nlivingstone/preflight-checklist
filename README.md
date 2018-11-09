@@ -11,6 +11,12 @@ Use this list to track completion of important tasks prior to launching a new pr
 - [ ] Is the browserlist properly configured for autoprefixer and babel-preset-env?
 - [ ] When using PurgeCSS: check if layout is preserved.
 
+### Meta
+- [ ] Check page titles / descriptions.
+- [ ] Are Twitter cards configured.
+- [ ] Are Facebook previews configured.
+- [ ] Does Favicon load? Pin the tab in Safari to check pinned icon.
+
 ### Scripts
 - [ ] Is `yarn.lock` present?
 - [ ] Check JS lint errors. Remove all `console.log` lines in scripts
@@ -23,19 +29,12 @@ Use this list to track completion of important tasks prior to launching a new pr
 - [ ] Use the Chrome DevTools and perform a mobile audit (with throttling) to fix common problems.
 - [ ] Repeat with a desktop audit.
 
-## 3. Check content (with an open console)
+### Check content (with an open console)
 - [ ] Are all strings / images present (and translated)?
 - [ ] Does menu/submenu have a correct active state on every page?
 - [ ] Are 404, 500 and 503 pages provided? Do they provide useful content like 'back to home', search or a navigation tree?
 - [ ] Check all pages for n+1 problems
 
-### Meta
-- [ ] Check page titles / descriptions.
-- [ ] Are Twitter cards configured.
-- [ ] Are Facebook previews configured.
-- [ ] Does Favicon load? Pin the tab in Safari to check pinned icon.
-
-_Repeat this section for all languages_
 
 ### Components
 - [ ] Google Maps
@@ -49,22 +48,10 @@ _Repeat this section for all languages_
 - [ ] Check layout of emails
 - [ ] Check structured data for news, events, products,... https://search.google.com/structured-data/testing-tool/
 
-## 4. Back end checklist
-- [ ] Open up `/blender`
-- [ ] Remove unused modules from main menu 
-- [ ] Configure Analytics dashboard
-- [ ] Create a new admin and try to log in
-- [ ] Try the password reset flow for existing user
-- [ ] Try saving article / news / ...
-- [ ] Verify all e-mail recipients are correct
-- [ ] Scan database for urls to development domain
-- [ ] Check client's logo in header
-
-## 5. Server, DNS & Services
+### Server, DNS & Services
 - [ ] Add redirects from old to new pages if necessary.
 - [ ] Install Let's Encrypt certificate
 - [ ] Check SSL certificate health https://www.ssllabs.com/ssltest/
-- [ ] Check your hostfile to make sure you're looking at the live site
 - [ ] Try visiting `www` domain, should redirect to `non-www`
 - [ ] Try out visiting `http`, should redirect to `https`
 - [ ] Verify that all http status codes are ok with https://github.com/spatie/http-status-check
