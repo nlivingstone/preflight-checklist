@@ -1,4 +1,4 @@
-# Application Deployment Preflight Checks
+# 🚀 Application Deployment Preflight Checks
 
 Use this list to track completion of important tasks prior to launching a new project. 
 
